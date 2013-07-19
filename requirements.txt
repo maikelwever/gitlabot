@@ -1,0 +1,4 @@
+-e git+https://github.com/evilkost/brukva.git@20db682ed191c784aedbee5d2de8defdd03774fc#egg=brukva-dev
+redis==2.7.1
+tornado==2.4
+

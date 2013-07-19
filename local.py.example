@@ -1,0 +1,10 @@
+IRC_SERVER = 'irc.server.net'
+IRC_CHANS = ['#yourawesomechannel',]
+IRC_NICK = 'changemePLEASE'
+IRC_OWNER = 'henkdevries'
+IRC_COMMAND_CHAR = '$'
+WEB_PORT = 8889
+REDIS_CHAN = "gitlabot"
+REDIS_DB = 2
+# Set proto to https if you use https for external use
+PROTO = ""
