@@ -7,9 +7,13 @@ Gitlabot is a small webserver with IRC client written in Python. It uses the tor
 How to use
 ----------
 
+Make sure you have Redis installed, and the python-dev package (that's what it's called on Ubuntu at least)
+
 Install the requirements as specified in requirements.txt. Please use a virtualenv.
 
 Please create a local.py file with contents as specified in local.py.example, so you can set your IRC channel, the botname, and some other parameters.
+
+Set one or more deploy hook(s) in a GitLab project to http://localhost:8889/
 
 Advice is to run the bot in a screen or tmux session, so it can continue running without you having to keep your shell session opened.
 
